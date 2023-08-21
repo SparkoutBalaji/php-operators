@@ -6,6 +6,7 @@ echo "3.Comparison Operators<br/>";
 echo "4.Incrementing/Decrementing Operators<br/>";
 echo "5.Logical Operators<br/>";
 echo "6.String Operators<br/><br/>";
+echo "7.Ternary Operator<br/><br/>";
 
 echo "1.Arithmetic Operators : <br/><br/>";
 
@@ -155,14 +156,21 @@ $string2 = "N";
 
 $string3 = $string1.$string2; //string concatenation
 
-echo "$string1.$string2 : ".$string3;
+        echo "$string1.$string2 : ".$string3;
 
-echo "<br/><br/>";
+        echo "<br/><br/>";
 
-$string1 .= $string2; //string concatenation with assignment
+        $string1 .= $string2; //string concatenation with assignment
 
-echo "$string1 .= $string2 : ".$string1;
+        echo "$string1 .= $string2 : ".$string1."<br/><br/>";
 
+echo "7.Ternary Operator : <br/><br/>";
+
+$a = 10;
+$b = 20;
+$c = $a > $b ? $a : $b ;
+
+echo $c;
 
 
 ?>
